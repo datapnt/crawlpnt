@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crawlpnt"
+requires-python = ">= 3.8"
+version = "0.1.0"
+description = "Precision Navigation Tool for dependency-free, AI-ready web crawling."
+readme = "README.md"
+authors = [{ name = "andrew", email = "andrew@datapnt.com" }]
+license = { text = "MIT" }
+keywords = ["web-crawler", "data-extraction", "ai", "opensource"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []  # Intentionally empty (no external deps)
+
+[project.urls]
+Homepage = "https://datapnt.com"
+Documentation = "https://github.com/datapnt/crawlpnt#readme"
+Source = "https://github.com/datapnt/crawlpnt"
